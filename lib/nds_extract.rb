@@ -30,9 +30,7 @@ row_i = 0
 
   row_i +=1
   end
-
-
-  return result
+  totals
 
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
