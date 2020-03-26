@@ -7,19 +7,19 @@ def directors_totals(nds)
   #
   
 
-result = {}  
+totals = {}  
 row_i = 0 
 
-  while row_index < nds.length do
+  while row_i < nds.length do
       name_index = 0 
-      while name_index < nds[row_index][:name].length do 
-        director = nds[row_index][:name]
+      while name_index < nds[row_i][:name].length do 
+        director = nds[row_i][:name]
 
-        column_index = 0 
+        column_i = 0 
         gross_total = 0 
         
-        while column_index < nds[row_index][:movies].length do
-          gross_total += nds[row_index][:movies][column_index][:worldwide_gross]
+        while column_i < nds[row_i][:movies].length do
+          gross_total += nds[row_i][:movies][column_index][:worldwide_gross]
           column_index += 1 
         end 
 
