@@ -20,6 +20,8 @@ while movie_index < nds[director_index][:movies].length do
 end
   director_index += 1 
 end
+totals
+
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   result = {
@@ -35,5 +37,4 @@ end
   #
   #
   # Be sure to return the result at the end!
-  nil
 end
