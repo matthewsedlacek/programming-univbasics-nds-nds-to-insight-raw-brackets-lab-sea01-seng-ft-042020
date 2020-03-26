@@ -6,6 +6,7 @@ def directors_totals(nds)
   # that you know what you're starting with!
   #
   
+totals 
 director_index = 0 
 
 
