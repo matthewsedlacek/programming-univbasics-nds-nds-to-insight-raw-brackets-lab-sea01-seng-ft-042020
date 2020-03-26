@@ -16,7 +16,7 @@ row_index = 0
         director = nds[row_index][:name]
 
         column_index = 0 
-        gross_income = 0 
+        gross_total = 0 
         
         while column_index < nds[row_index][:movies].length do
           gross_income += nds[row_index][:movies][column_index][:worldwide_gross]
