@@ -10,7 +10,8 @@ totals = {}
 director_index = 0 
 
 while director_index < nds.length do
-  director_name = nds[:name]
+  director_name = nds[director_index][:name]
+  
 
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
