@@ -23,7 +23,7 @@ row_i = 0
           column_i += 1 
         end 
 
-        result[director] = gross_total
+        totals[director] = gross_total
         name_index += 1 
 
       end
