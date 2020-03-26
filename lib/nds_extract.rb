@@ -28,7 +28,7 @@ row_i = 0
 
       end
 
-  row_index +=1
+  row_i +=1
   end
 
 
