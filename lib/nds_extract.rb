@@ -8,7 +8,7 @@ def directors_totals(nds)
   require 'pp'
   pp directors_database
   
-  p director_name = directors_database[:name]
+  
 
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
