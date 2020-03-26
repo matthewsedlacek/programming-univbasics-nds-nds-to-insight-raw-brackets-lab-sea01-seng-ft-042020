@@ -19,11 +19,11 @@ row_i = 0
         gross_total = 0 
         
         while column_i < nds[row_i][:movies].length do
-          gross_total += nds[row_i][:movies][column_index][:worldwide_gross]
-          column_index += 1 
+          gross_total += nds[row_i][:movies][column_i][:worldwide_gross]
+          column_i += 1 
         end 
 
-        result[director] = gross_income
+        result[director] = gross_total
         name_index += 1 
 
       end
