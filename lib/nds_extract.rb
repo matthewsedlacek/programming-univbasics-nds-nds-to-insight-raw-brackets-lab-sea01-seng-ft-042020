@@ -5,8 +5,6 @@ def directors_totals(nds)
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
-  require 'pp'
-  pp directors_database
   
   row_index = 0
 while row_index < directors_database.length do
@@ -14,9 +12,6 @@ while row_index < directors_database.length do
  
   column_index = 0
   while column_index < directors_database[row_index].length do
-    coord = "#{row_index}, #{column_index}"
-    inner_len = directors_database[row_index][column_index].length
-    # Remember \t is a TAB character for indentation
     puts "\tCoordinate [#{coord}] points to an #{directors_database[row_index][column_index].class} of length #{inner_len}"
  
     inner_index = 0
