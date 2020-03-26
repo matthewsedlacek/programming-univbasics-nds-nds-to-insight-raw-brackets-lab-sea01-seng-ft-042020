@@ -14,6 +14,8 @@ while director_index < nds.length do
   totals[director_name]
   movie_index = 0
 
+while 
+
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   result = {
